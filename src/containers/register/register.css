@@ -1,0 +1,68 @@
+/** @format */
+
+.register-text-container {
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0px 50px;
+}
+
+.register-img-container {
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.register-userimg {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 2px solid grey;
+}
+
+.register-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-terms {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #9494ae;
+}
+
+.register-copyright {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #9494ae;
+}
+
+.register-ml-3 {
+    margin-left: 23px;
+}
+
+.register-input-with-icon {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.register-input-with-icon:hover {
+    border: 1px solid #000000;
+}
+
+.register-input-with-icon:focus-within {
+    border: 1px solid rgb(255, 97, 97);
+}
